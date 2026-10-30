@@ -64,5 +64,135 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Meshes is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog) and added to the network as a stub for full-pipeline profiling.
-- https://meshes.io/
+Meshes provides an embedded integration platform as a service (iPaaS) enabling SaaS applications to easily connect, route, and manage outbound integrations. The platform offers features such as multi‑tenant workspaces, fan‑out routing, retry handling, webhook support, and detailed delivery history. Meshes targets product teams building customer‑facing SaaS solutions that need to integrate with services like CRM, Slack, payment processors, and more, reducing the complexity of building and maintaining custom integration code. The service includes a developer portal, comprehensive documentation, API reference, pricing details, and support resources, positioning Meshes as a modern alternative to traditional integration tools.
+
+**Areas:** Company · iPaaS · SaaS · Integration · API
+
+## Meshes on APIs.io
+
+Everything profiled for Meshes is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/meshes/](https://apis.io/providers/meshes/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Meshes API](https://apis.io/apis/meshes/meshes-api-2/) — Meshes API provides endpoints for managing integrations, workspaces, and webhook deliveries.
+- [Meshes API](https://apis.io/apis/meshes/meshes-api/) — Meshes API as documented publicly: 13 operations. Contract generated from the documentation by API Evangelist (2026-10-18); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [GetApiV1SessionsResponse](https://apis.io/schemas/meshes/meshes-get-api-v1-sessions-response/)
+- [PostApiV1RulesRequest](https://apis.io/schemas/meshes/meshes-post-api-v1-rules-request/)
+- [PostApiV1SessionsRequest](https://apis.io/schemas/meshes/meshes-post-api-v1-sessions-request/)
+- [PostApiV1SessionsResponse](https://apis.io/schemas/meshes/meshes-post-api-v1-sessions-response/)
+- [PostApiV1SessionsSessionidRefreshResponse](https://apis.io/schemas/meshes/meshes-post-api-v1-sessions-sessionid-refresh-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Meshes Context](https://apis.io/jsonld/meshes/meshes-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Meshes Openapi Overlay](https://apis.io/overlays/meshes/meshes-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Meshes API Rules](https://apis.io/rules/meshes/meshes-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Meshes Authentication](https://apis.io/security/meshes/meshes-authentication/)
+- [Meshes Domain Security](https://apis.io/security/meshes/meshes-domain-security/)
+- [Meshes Trust Center](https://apis.io/security/meshes/meshes-trust-center/)
+- [Meshes Vulnerability Disclosure](https://apis.io/security/meshes/meshes-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Meshes Plans Pricing](https://apis.io/plans/meshes/meshes-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://meshes.io/)
+- [Documentation](https://meshes.io/docs)
+- [Getting started](https://meshes.io/docs/getting-started/quickstart)
+- [API reference](https://meshes.io/docs/api/reference)
+- [Pricing](https://meshes.io/pricing)
+- [Sign up](https://meshes.io/auth/sign-up)
+- [Support](https://meshes.io/contact)
+- [Changelog](https://meshes.io/changelog)
+- [Blog](https://meshes.io/blog)
+- [Security](https://meshes.io/security)
+- [Compliance](https://meshes.io/security)
+- [Terms of service](https://meshes.io/terms-of-service)
+- [Privacy policy](https://meshes.io/privacy-policy)
+- [GitHub](https://github.com/mesheshq)
+- [Status](https://meshes.statuspage.io/)
+
+## API Evangelist rating
+
+**Kin Score 70.6** — exemplar · rubric 0.24.0 · scored 2026-10-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 54.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 55.3 |
+| Developer ergonomics | 64.3 |
+| Access clarity | 88.9 |
+
+**Agent readiness 32.9** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 35.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/meshes/](https://apis.io/providers/meshes/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Meshes: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/meshes/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
